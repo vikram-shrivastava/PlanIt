@@ -8,7 +8,7 @@ import Signup from "./components/Auth/Signup.jsx";
 import Login from "./components/Auth/Login.jsx";
 import Home from "./components/Home/Home.jsx";
 import RoleSelection from "./components/RoleSelection/SelectRole.jsx"
-import OrganizerSearchpage from "./components/Organizers/organizerSearchpage.jsx";
+import OrganizerSearchpage from "./components/Organizers/OrganizerSearchpage.jsx";
 import Organizer from "./components/Organizers/Organizer.jsx"
 import ServiceSelection from "./components/ServiceProviders/SelectServicePage.jsx"
 import CaterersSearchPage from "./components/ServiceProviders/CaterersPage.jsx"
