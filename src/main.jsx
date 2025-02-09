@@ -38,10 +38,6 @@ const router = createBrowserRouter([
         element: <RoleSelection/>,
       },
       {
-        path: "/organizersearchpage",
-        element: <OrganizerSearchpage/>,
-      },
-      {
         path: "/organizer",
         element: <Organizer/>,
       },
