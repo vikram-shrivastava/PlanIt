@@ -7,24 +7,6 @@ import Layout from "./components/Layout/Layout.jsx"; // Import the custom Layout
 import Signup from "./components/Auth/Signup.jsx";
 import Login from "./components/Auth/Login.jsx";
 import Home from "./components/Home/Home.jsx";
-import RoleSelection from "./components/RoleSelection/SelectRole.jsx";
-import Organizer from "./components/Organizers/organizer.jsx";
-import ServiceSelection from "./components/ServiceProviders/SelectServicePage.jsx";
-import CaterersSearchPage from "./components/ServiceProviders/CaterersPage.jsx";
-import OrganizerDashboard from "./components/Organizers/OrganizerDashboard.jsx";
-import DecoratorsPage from "./components/ServiceProviders/DecoratorsPage.jsx";
-import EntertainmentPage from "./components/ServiceProviders/EntertainmentPage.jsx";
-import SecurityPage from "./components/ServiceProviders/SecurityPage.jsx";
-import ChatInteractions from "./components/ChatInteractions/ChatInteractions.jsx";
-import HostProfile from "./components/Host/HostProfile.jsx";
-import AdminDashboard from "./components/Admin/AdminDashboard.jsx";
-import Logout from "./components/Auth/Logout.jsx";
-import CatererProfile from "./components/ServiceProviders/CatererProfile.jsx";
-import DecoratorProfile from "./components/ServiceProviders/DecoratorProfile.jsx";
-import EntertainmentProfile from "./components/ServiceProviders/EntertainmentProfile.jsx";
-import SecurityProfile from "./components/ServiceProviders/SecurityProfile.jsx";
-import ParticipantProfile from "./components/Participant/ParticipantProfile.jsx";
-import OrganizerSearchpage from "./components/Organizers/OrganizerSearchpage.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,7 +18,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/roles",
-        element: <RoleSelection />,
+        element: <RoleSelection/>,
       },
       {
         path: "/organizersearchpage",
