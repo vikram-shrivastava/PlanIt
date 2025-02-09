@@ -8,7 +8,6 @@ import Signup from "./components/Auth/Signup.jsx";
 import Login from "./components/Auth/Login.jsx";
 import Home from "./components/Home/Home.jsx";
 import RoleSelection from "./components/RoleSelection/SelectRole.jsx";
-import OrganizerSearchpage from "./components/Organizers/organizerSearchpage.jsx";
 import Organizer from "./components/Organizers/organizer.jsx";
 import ServiceSelection from "./components/ServiceProviders/SelectServicePage.jsx";
 import CaterersSearchPage from "./components/ServiceProviders/CaterersPage.jsx";
@@ -25,6 +24,7 @@ import DecoratorProfile from "./components/ServiceProviders/DecoratorProfile.jsx
 import EntertainmentProfile from "./components/ServiceProviders/EntertainmentProfile.jsx";
 import SecurityProfile from "./components/ServiceProviders/SecurityProfile.jsx";
 import ParticipantProfile from "./components/Participant/ParticipantProfile.jsx";
+import OrganizerSearchpage from "./components/Organizers/organizerSearchpage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/organizersearchpage",
-        element: <OrganizerSearchpage />,
+        element: <OrganizerSearchpage/>,
       },
       {
         path: "/organizer",
