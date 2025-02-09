@@ -107,7 +107,7 @@ const ErrorState = ({ error, onRetry }) => (
   </div>
 );
 
-const OrganizersSearchpage = () => {
+const OrganizerSearchpage = () => {
   const [organizations, setOrganizations] = useState([]);
   const [filteredOrganizations, setFilteredOrganizations] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -349,4 +349,4 @@ const OrganizersSearchpage = () => {
   );
 };
 
-export default OrganizersSearchpage;
+export default OrganizerSearchpage;
