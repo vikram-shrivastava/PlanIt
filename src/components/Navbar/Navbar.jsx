@@ -64,7 +64,7 @@ export default function Header() {
           <div className="hidden lg:flex lg:items-center lg:space-x-6">
   {[
     { name: "Home", path: "/" },
-    { name: "Organizers", path: "/organizersearchpage" },
+    { name: "Organizers", path: "/Organizersearchpage" },
     { name: "Services", path: "/serviceproviders" },
     { name: "Chat", path: "/chat" },
   ].map((link) => (
