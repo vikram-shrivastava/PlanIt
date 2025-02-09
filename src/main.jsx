@@ -24,7 +24,6 @@ import EntertainmentProfile from "./components/ServiceProviders/EntertainmentPro
 import SecurityProfile from "./components/ServiceProviders/SecurityProfile.jsx"
 import ParticipantProfile from "./components/Participant/ParticipantProfile.jsx"
 import Logout from "./components/Auth/Logout.jsx"
-import OrganizerSearchpage from "./components/Organizers/OrganizerSearchPage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -97,10 +96,6 @@ const router = createBrowserRouter([
       {
       path:"/profile",
         element:<ParticipantProfile/>
-      },
-      {
-        path:"/Organizersearchpage",
-        element:<OrganizerSearchpage/>
       }
     ],
   },
