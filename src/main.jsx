@@ -24,7 +24,7 @@ import DecoratorProfile from "./components/ServiceProviders/DecoratorProfile.jsx
 import EntertainmentProfile from "./components/ServiceProviders/EntertainmentProfile.jsx";
 import SecurityProfile from "./components/ServiceProviders/SecurityProfile.jsx";
 import ParticipantProfile from "./components/Participant/ParticipantProfile.jsx";
-import OrganizerSearchpage from "./components/Organizers/organizerSearchpage.jsx"
+import OrganizerSearchpage from "./components/Organizers/OrganizerSearchpage.jsx"
 const router = createBrowserRouter([
   {
     path: "/",
